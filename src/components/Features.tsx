@@ -58,7 +58,7 @@ export function Features({ dict }: { dict: Dictionary }) {
               </span>
               <h3 className="mt-5 text-balance text-2xl font-semibold leading-[1.15] tracking-tight sm:text-3xl md:text-4xl">
                 {tab.titleLine1}{" "}
-                <span className="bg-linear-to-r from-[#b9aeff] to-primary bg-clip-text text-transparent">
+                <span className="bg-linear-to-r from-primary-light to-primary bg-clip-text text-transparent">
                   {tab.titleHighlight}
                 </span>
               </h3>
@@ -72,7 +72,7 @@ export function Features({ dict }: { dict: Dictionary }) {
                 className="w-[170px]"
                 caption={tab.label.toUpperCase()}
                 views="1,8M"
-                gradient="from-[#8f7dff] via-[#2f1138] to-black"
+                gradient="from-accent via-accent-deep to-black"
               />
             </div>
           </div>

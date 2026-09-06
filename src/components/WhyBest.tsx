@@ -13,14 +13,14 @@ export function WhyBest({ dict }: { dict: Dictionary }) {
       <div
         aria-hidden
         className="pointer-events-none absolute right-0 top-1/4 h-[420px] w-[620px]"
-        style={{ background: "radial-gradient(ellipse at center, rgba(103,89,215,0.18), transparent 70%)" }}
+        style={{ background: "radial-gradient(ellipse at center, rgba(255,61,129,0.18), transparent 70%)" }}
       />
 
       <div className="relative mx-auto grid max-w-6xl gap-12 px-5 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)] lg:items-start lg:gap-16">
         <div className="lg:sticky lg:top-28">
           <h2 className="text-balance text-3xl font-semibold leading-[1.12] tracking-tight sm:text-4xl md:text-5xl">
             {why.titleLine1}{" "}
-            <span className="bg-linear-to-r from-[#b9aeff] to-primary bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-primary-light to-primary bg-clip-text text-transparent">
               {why.titleHighlight}
             </span>{" "}
             {why.titleLine2}

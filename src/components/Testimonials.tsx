@@ -12,12 +12,12 @@ function initials(name: string) {
 }
 
 const AVATAR_GRADIENTS = [
-  "from-[#7d6ff0] to-[#4d00ff]",
-  "from-[#ff7ac6] to-[#7d3bff]",
-  "from-[#4fd1ff] to-[#2f5bff]",
+  "from-primary-bright to-accent",
+  "from-[#ff9a3d] to-[#ff3d81]",
+  "from-[#ffd166] to-[#ff7a2f]",
   "from-[#ffb86b] to-[#ff5d5d]",
-  "from-[#6bffb8] to-[#00a97f]",
-  "from-[#b9aeff] to-[#6759d7]",
+  "from-[#ff6b6b] to-[#c2185b]",
+  "from-primary-light to-primary",
 ];
 
 function Card({
@@ -64,7 +64,7 @@ export function Testimonials({ dict }: { dict: Dictionary }) {
           <Badge>{testimonials.badge}</Badge>
           <h2 className="mt-6 max-w-2xl text-balance text-3xl font-semibold leading-[1.12] tracking-tight sm:text-4xl md:text-5xl">
             {testimonials.titleLine1}{" "}
-            <span className="bg-linear-to-r from-[#b9aeff] to-primary bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-primary-light to-primary bg-clip-text text-transparent">
               {testimonials.titleHighlight}
             </span>
           </h2>
@@ -106,7 +106,7 @@ export function Testimonials({ dict }: { dict: Dictionary }) {
             >
               <dt className="sr-only">{stat.label}</dt>
               <dd>
-                <span className="block bg-linear-to-b from-white to-[#b9aeff] bg-clip-text text-4xl font-bold tracking-tight text-transparent md:text-5xl">
+                <span className="block bg-linear-to-b from-white to-primary-light bg-clip-text text-4xl font-bold tracking-tight text-transparent md:text-5xl">
                   {stat.value}
                 </span>
                 <span className="mt-2 block text-[13px] text-white/45">{stat.label}</span>

@@ -11,7 +11,7 @@ export function AiGeneration({ dict }: { dict: Dictionary }) {
       <div
         aria-hidden
         className="pointer-events-none absolute left-1/2 top-0 h-[500px] w-[800px] -translate-x-1/2"
-        style={{ background: "radial-gradient(ellipse at center, rgba(103,89,215,0.22), transparent 70%)" }}
+        style={{ background: "radial-gradient(ellipse at center, rgba(255,61,129,0.22), transparent 70%)" }}
       />
 
       <div className="relative mx-auto max-w-5xl px-5">
@@ -19,7 +19,7 @@ export function AiGeneration({ dict }: { dict: Dictionary }) {
           <Badge>{aiGeneration.badge}</Badge>
           <h2 className="mt-6 max-w-3xl text-balance text-3xl font-semibold leading-[1.12] tracking-tight sm:text-4xl md:text-5xl">
             {aiGeneration.titleLine1}{" "}
-            <span className="bg-linear-to-r from-[#b9aeff] to-primary bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-primary-light to-primary bg-clip-text text-transparent">
               {aiGeneration.titleHighlight}
             </span>
           </h2>
@@ -51,7 +51,7 @@ export function AiGeneration({ dict }: { dict: Dictionary }) {
               {[0, 1, 2, 3].map((i) => (
                 <div
                   key={i}
-                  className="relative aspect-9/16 overflow-hidden rounded-xl border border-white/8 bg-linear-to-br from-primary/40 via-[#1b1240] to-black"
+                  className="relative aspect-9/16 overflow-hidden rounded-xl border border-white/8 bg-linear-to-br from-primary/40 via-primary-deep to-black"
                 >
                   <div aria-hidden className="absolute inset-0 bg-grid opacity-30" />
                   <span className="absolute bottom-2 left-2 rounded bg-black/60 px-1.5 py-0.5 text-[10px] font-medium text-white/80">

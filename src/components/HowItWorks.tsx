@@ -16,7 +16,7 @@ export function HowItWorks({ dict }: { dict: Dictionary }) {
       <div
         aria-hidden
         className="pointer-events-none absolute left-1/2 top-1/4 h-[500px] w-[900px] -translate-x-1/2"
-        style={{ background: "radial-gradient(ellipse at center, rgba(103,89,215,0.18), transparent 70%)" }}
+        style={{ background: "radial-gradient(ellipse at center, rgba(255,61,129,0.18), transparent 70%)" }}
       />
 
       <div className="relative mx-auto max-w-5xl px-5">
@@ -24,7 +24,7 @@ export function HowItWorks({ dict }: { dict: Dictionary }) {
           <Badge>{howItWorks.badge}</Badge>
           <h2 className="mt-6 max-w-2xl text-balance text-3xl font-semibold leading-[1.12] tracking-tight sm:text-4xl md:text-5xl">
             {howItWorks.titleLine1}{" "}
-            <span className="bg-linear-to-r from-[#b9aeff] to-primary bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-primary-light to-primary bg-clip-text text-transparent">
               {howItWorks.titleHighlight}
             </span>
           </h2>
@@ -50,7 +50,7 @@ export function HowItWorks({ dict }: { dict: Dictionary }) {
                     className={cx(
                       "flex size-9 shrink-0 items-center justify-center rounded-xl text-[15px] font-bold transition",
                       i === active
-                        ? "bg-linear-to-br from-[#7d6ff0] to-primary text-white shadow-[0_8px_24px_-8px_rgba(103,89,215,1)]"
+                        ? "bg-linear-to-br from-primary-bright to-primary text-white shadow-[0_8px_24px_-8px_rgba(255,61,129,1)]"
                         : "border border-white/10 bg-white/5 text-white/50",
                     )}
                   >
@@ -84,7 +84,7 @@ export function HowItWorks({ dict }: { dict: Dictionary }) {
                   <BoltIcon className="size-4 shrink-0 text-primary" />
                   <span className="truncate text-[14px] text-white/40">{step.placeholder}</span>
                 </div>
-                <span className="inline-flex items-center justify-center gap-2 rounded-xl bg-linear-to-b from-[#7d6ff0] to-primary px-5 py-2.5 text-[14px] font-semibold text-white">
+                <span className="inline-flex items-center justify-center gap-2 rounded-xl bg-linear-to-b from-primary-bright to-primary px-5 py-2.5 text-[14px] font-semibold text-white">
                   {step.action}
                   <ArrowRightIcon className="size-4" />
                 </span>

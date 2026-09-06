@@ -11,7 +11,7 @@ export function BestSoftware({ dict }: { dict: Dictionary }) {
       <div
         aria-hidden
         className="pointer-events-none absolute left-1/2 top-1/2 h-[560px] w-[1000px] -translate-x-1/2 -translate-y-1/2"
-        style={{ background: "radial-gradient(ellipse at center, rgba(103,89,215,0.2), transparent 70%)" }}
+        style={{ background: "radial-gradient(ellipse at center, rgba(255,61,129,0.2), transparent 70%)" }}
       />
 
       <div className="relative mx-auto max-w-6xl px-5">
@@ -19,13 +19,13 @@ export function BestSoftware({ dict }: { dict: Dictionary }) {
           <Badge>{bestSoftware.badge}</Badge>
           <h2 className="mt-6 max-w-2xl text-balance text-3xl font-semibold leading-[1.12] tracking-tight sm:text-4xl md:text-5xl">
             {bestSoftware.titleLine1}{" "}
-            <span className="bg-linear-to-r from-[#b9aeff] to-primary bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-primary-light to-primary bg-clip-text text-transparent">
               {bestSoftware.titleHighlight}
             </span>
           </h2>
         </div>
 
-        <div className="relative mx-auto mt-14 max-w-5xl rounded-[1.75rem] border border-white/10 bg-linear-to-b from-white/10 to-white/[0.02] p-2 shadow-[0_50px_120px_-40px_rgba(103,89,215,0.7)]">
+        <div className="relative mx-auto mt-14 max-w-5xl rounded-[1.75rem] border border-white/10 bg-linear-to-b from-white/10 to-white/[0.02] p-2 shadow-[0_50px_120px_-40px_rgba(255,61,129,0.7)]">
           <div className="overflow-hidden rounded-3xl border border-white/8 bg-[#08080c]">
             {/* window chrome */}
             <div className="flex items-center gap-2 border-b border-white/8 px-4 py-3">
@@ -62,7 +62,7 @@ export function BestSoftware({ dict }: { dict: Dictionary }) {
                     <YoutubeIcon className="size-3.5 text-[#ff0033]" />
                     youtube.com/watch?v=…
                   </span>
-                  <span className="flex items-center gap-1.5 rounded-lg bg-linear-to-b from-[#7d6ff0] to-primary px-3 py-2 text-[12px] font-semibold">
+                  <span className="flex items-center gap-1.5 rounded-lg bg-linear-to-b from-primary-bright to-primary px-3 py-2 text-[12px] font-semibold">
                     <BoltIcon className="size-3" />
                     Générer
                   </span>
@@ -76,7 +76,7 @@ export function BestSoftware({ dict }: { dict: Dictionary }) {
                   {[0, 1, 2, 3].map((i) => (
                     <div
                       key={i}
-                      className="relative aspect-9/16 overflow-hidden rounded-lg border border-white/8 bg-linear-to-br from-primary/45 via-[#1b1240] to-black"
+                      className="relative aspect-9/16 overflow-hidden rounded-lg border border-white/8 bg-linear-to-br from-primary/45 via-primary-deep to-black"
                     >
                       <div aria-hidden className="absolute inset-0 bg-grid opacity-30" />
                       <span className="absolute inset-0 flex items-center justify-center">

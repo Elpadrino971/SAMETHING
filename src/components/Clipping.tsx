@@ -12,7 +12,7 @@ export function Clipping({ dict }: { dict: Dictionary }) {
       <div
         aria-hidden
         className="pointer-events-none absolute left-1/2 top-1/3 h-[600px] w-[900px] -translate-x-1/2"
-        style={{ background: "radial-gradient(ellipse at center, rgba(77,0,255,0.18), transparent 70%)" }}
+        style={{ background: "radial-gradient(ellipse at center, rgba(255,122,47,0.18), transparent 70%)" }}
       />
 
       <div className="relative mx-auto max-w-6xl px-5">
@@ -20,7 +20,7 @@ export function Clipping({ dict }: { dict: Dictionary }) {
           <Badge>{clipping.badge}</Badge>
           <h2 className="mt-6 max-w-3xl text-balance text-3xl font-semibold leading-[1.12] tracking-tight sm:text-4xl md:text-5xl">
             {clipping.titleLine1}{" "}
-            <span className="bg-linear-to-r from-[#b9aeff] to-primary bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-primary-light to-primary bg-clip-text text-transparent">
               {clipping.titleHighlight}
             </span>
           </h2>
@@ -57,7 +57,7 @@ export function Clipping({ dict }: { dict: Dictionary }) {
               tilt={6}
               caption="CLIP 3"
               views="880K"
-              gradient="from-[#8f7dff] via-[#2f1138] to-black"
+              gradient="from-accent via-accent-deep to-black"
             />
           </div>
         </div>

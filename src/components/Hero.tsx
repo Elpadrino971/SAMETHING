@@ -21,14 +21,14 @@ export function Hero({ dict }: { dict: Dictionary }) {
         className="pointer-events-none absolute -top-72 left-1/2 h-[820px] w-[1200px] -translate-x-1/2"
         style={{
           background:
-            "radial-gradient(ellipse 55% 45% at center, rgba(103,89,215,0.42) 0%, rgba(77,0,255,0.14) 45%, rgba(0,0,0,0) 72%)",
+            "radial-gradient(ellipse 55% 45% at center, rgba(255,61,129,0.42) 0%, rgba(255,122,47,0.14) 45%, rgba(0,0,0,0) 72%)",
         }}
       />
       <div aria-hidden className="pointer-events-none absolute inset-x-0 bottom-0 h-64 bg-linear-to-b from-transparent to-near-black" />
 
       <div className="relative mx-auto flex w-full max-w-6xl flex-1 flex-col items-center px-5 text-center">
         <div className="inline-flex items-center gap-2 rounded-full border border-white/12 bg-white/5 px-3 py-1.5 backdrop-blur">
-          <span className="inline-flex items-center gap-1.5 rounded-full bg-linear-to-r from-[#7d6ff0] to-primary px-2.5 py-1 text-[11px] font-bold tracking-wide text-white">
+          <span className="inline-flex items-center gap-1.5 rounded-full bg-linear-to-r from-primary-bright to-primary px-2.5 py-1 text-[11px] font-bold tracking-wide text-white">
             <SparkleIcon className="size-3" />
             {hero.badge}
           </span>
@@ -38,7 +38,7 @@ export function Hero({ dict }: { dict: Dictionary }) {
         <h1 className="mt-7 max-w-4xl text-balance text-[2.6rem] font-semibold leading-[1.03] tracking-tight sm:text-6xl lg:text-7xl">
           {hero.titleLine1}{" "}
           <span className="relative inline-block">
-            <span className="bg-linear-to-r from-[#b9aeff] via-white to-[#8f7dff] bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-primary-light via-white to-accent bg-clip-text text-transparent">
               {hero.titleHighlight}
             </span>
             <svg
@@ -79,7 +79,7 @@ export function Hero({ dict }: { dict: Dictionary }) {
             className="hidden animate-float sm:block"
             caption="30 SEC → 1M VUES"
             views="842K"
-            gradient="from-[#4d00ff] via-[#1b1240] to-black"
+            gradient="from-accent via-primary-deep to-black"
           />
           <div className="relative z-10 w-[260px] sm:w-[280px]">
             <div className="absolute -inset-8 -z-10 rounded-full bg-primary/25 blur-3xl" />
@@ -90,7 +90,7 @@ export function Hero({ dict }: { dict: Dictionary }) {
             className="hidden animate-float lg:block"
             caption="AUTO-PUBLISH"
             views="2,4M"
-            gradient="from-[#8f7dff] via-[#2f1138] to-black"
+            gradient="from-accent via-accent-deep to-black"
           />
 
           <div className="absolute left-4 top-10 hidden animate-float rounded-2xl border border-white/10 bg-white/6 px-3 py-2 backdrop-blur-md md:flex md:items-center md:gap-2">

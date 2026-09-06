@@ -11,7 +11,7 @@ export function FinalCta({ dict }: { dict: Dictionary }) {
       <div
         aria-hidden
         className="pointer-events-none absolute left-1/2 top-1/2 h-[560px] w-[900px] -translate-x-1/2 -translate-y-1/2 animate-pulse-glow"
-        style={{ background: "radial-gradient(ellipse at center, rgba(103,89,215,0.35), transparent 70%)" }}
+        style={{ background: "radial-gradient(ellipse at center, rgba(255,61,129,0.35), transparent 70%)" }}
       />
 
       <div className="relative mx-auto max-w-3xl px-5 text-center">

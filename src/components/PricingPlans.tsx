@@ -17,7 +17,7 @@ export function PricingPlans({ dict }: { dict: Dictionary }) {
       <div
         aria-hidden
         className="pointer-events-none absolute left-1/2 top-0 h-[600px] w-[1000px] -translate-x-1/2 -translate-y-1/3"
-        style={{ background: "radial-gradient(ellipse at center, rgba(103,89,215,0.28), transparent 70%)" }}
+        style={{ background: "radial-gradient(ellipse at center, rgba(255,61,129,0.28), transparent 70%)" }}
       />
 
       <div className="relative mx-auto max-w-6xl px-5">
@@ -25,7 +25,7 @@ export function PricingPlans({ dict }: { dict: Dictionary }) {
           <Badge>{pricing.badge}</Badge>
           <h1 className="mt-6 max-w-2xl text-balance text-4xl font-semibold leading-[1.08] tracking-tight sm:text-5xl md:text-6xl">
             {pricing.titleLine1}
-            <span className="block bg-linear-to-r from-[#b9aeff] to-primary bg-clip-text text-transparent">
+            <span className="block bg-linear-to-r from-primary-light to-primary bg-clip-text text-transparent">
               {pricing.titleHighlight}
             </span>
           </h1>
@@ -84,7 +84,7 @@ export function PricingPlans({ dict }: { dict: Dictionary }) {
                       aria-hidden
                       className="pointer-events-none absolute -right-20 -top-20 size-56 rounded-full bg-primary/30 blur-3xl"
                     />
-                    <span className="absolute right-6 top-6 rounded-full bg-linear-to-r from-[#7d6ff0] to-primary px-3 py-1 text-[11px] font-bold tracking-wide">
+                    <span className="absolute right-6 top-6 rounded-full bg-linear-to-r from-primary-bright to-primary px-3 py-1 text-[11px] font-bold tracking-wide">
                       {pricing.popular}
                     </span>
                   </>

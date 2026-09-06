@@ -70,14 +70,23 @@ en ligne.
 
 ## Design
 
-Tokens repris du site d'origine, définis dans `globals.css` :
+Palette sunset (rose → orange) sur fond noir, définie dans `globals.css` :
 
-| Token             | Valeur    |
-| ----------------- | --------- |
-| `--color-primary` | `#6759d7` |
-| `--color-accent`  | `#4d00ff` |
-| `--color-near-black` | `#0f0f0f` |
-| fond              | `#000`    |
+| Token                     | Valeur    | Usage                          |
+| ------------------------- | --------- | ------------------------------ |
+| `--color-primary`         | `#ff3d81` | rose principal                 |
+| `--color-accent`          | `#ff7a2f` | orange accent                  |
+| `--color-primary-bright`  | `#ff5c95` | haut des dégradés de bouton    |
+| `--color-primary-light`   | `#ffb3cd` | texte en dégradé clair         |
+| `--color-primary-deep`    | `#4a1030` | fond sombre teinté rose        |
+| `--color-accent-deep`     | `#43200f` | fond sombre teinté orange      |
+| `--color-near-black`      | `#0f0f0f` | fond des sections alternées    |
+| fond                      | `#000`    | fond principal                 |
+
+Les composants ne contiennent plus aucun hex de marque en dur : ils utilisent
+les classes Tailwind générées depuis ces tokens (`from-primary-bright`,
+`to-primary-light`, `bg-primary`…). Re-brander = éditer le bloc `@theme` de
+`globals.css` et rien d'autre.
 
 Interface sombre uniquement (`color-scheme: dark`), animations désactivées sous
 `prefers-reduced-motion`.

@@ -48,7 +48,7 @@ export function PrimaryButton({
       href={href}
       className={cx(
         "group relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full font-semibold text-white",
-        "bg-linear-to-b from-[#7d6ff0] to-primary shadow-[0_10px_40px_-8px_rgba(103,89,215,0.9)]",
+        "bg-linear-to-b from-primary-bright to-primary shadow-[0_10px_40px_-8px_rgba(255,61,129,0.9)]",
         "ring-1 ring-white/20 transition-transform duration-200 hover:-translate-y-0.5 active:translate-y-0",
         sizes[size],
         className,

@@ -16,7 +16,7 @@ export function Comparison({ dict }: { dict: Dictionary }) {
               className="pointer-events-none absolute -right-16 -top-16 size-48 rounded-full bg-primary/30 blur-3xl"
             />
             <h3 className="relative flex items-center gap-2 text-[17px] font-semibold md:text-lg">
-              <span className="flex size-7 items-center justify-center rounded-lg bg-linear-to-br from-[#7d6ff0] to-primary">
+              <span className="flex size-7 items-center justify-center rounded-lg bg-linear-to-br from-primary-bright to-primary">
                 <BoltIcon className="size-3.5 text-white" />
               </span>
               {comparison.us}

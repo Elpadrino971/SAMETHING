@@ -1,8 +1,13 @@
 @import "tailwindcss";
 
 @theme {
-  --color-accent: #4d00ff;
-  --color-primary: #6759d7;
+  /* Palette de marque — un seul endroit à changer pour re-brander */
+  --color-primary: #ff3d81;         /* rose principal */
+  --color-accent: #ff7a2f;          /* orange accent */
+  --color-primary-bright: #ff5c95;  /* haut des dégradés de bouton */
+  --color-primary-light: #ffb3cd;   /* texte en dégradé clair */
+  --color-primary-deep: #4a1030;    /* fond sombre teinté rose */
+  --color-accent-deep: #43200f;     /* fond sombre teinté orange */
   --color-near-black: #0f0f0f;
   --color-ink: #999999;
   --color-light-gray: #eaeaea;
@@ -58,7 +63,7 @@ body {
 }
 
 .text-gradient {
-  background: linear-gradient(180deg, #ffffff 30%, #b9aeff 100%);
+  background: linear-gradient(180deg, #ffffff 30%, var(--color-primary-light) 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;

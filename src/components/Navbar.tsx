@@ -46,7 +46,7 @@ export function Navbar({ dict, locale }: { dict: Dictionary; locale: Locale }) {
         )}
       >
         <Link href={base} className="flex items-center gap-2 font-semibold tracking-tight">
-          <span className="flex size-8 items-center justify-center rounded-lg bg-linear-to-br from-[#7d6ff0] to-primary shadow-[0_6px_20px_-6px_rgba(103,89,215,1)]">
+          <span className="flex size-8 items-center justify-center rounded-lg bg-linear-to-br from-primary-bright to-primary shadow-[0_6px_20px_-6px_rgba(255,61,129,1)]">
             <BoltIcon className="size-4 text-white" />
           </span>
           <span className="text-[17px]">Remakeit</span>

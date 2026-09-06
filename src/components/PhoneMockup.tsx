@@ -8,7 +8,7 @@ export function PhoneMockup({
   caption = "TOP 5 DES BUTS",
   views = "1,2M vues",
   tilt = 0,
-  gradient = "from-[#6759d7] via-[#301f7a] to-[#0f0f0f]",
+  gradient = "from-primary via-primary-deep to-[#0f0f0f]",
 }: {
   className?: string;
   caption?: string;

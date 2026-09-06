@@ -11,14 +11,14 @@ export function Footer({ dict, locale }: { dict: Dictionary; locale: Locale }) {
       <div
         aria-hidden
         className="pointer-events-none absolute bottom-0 left-1/2 h-72 w-[900px] -translate-x-1/2 translate-y-1/2"
-        style={{ background: "radial-gradient(ellipse at center, rgba(103,89,215,0.22), transparent 70%)" }}
+        style={{ background: "radial-gradient(ellipse at center, rgba(255,61,129,0.22), transparent 70%)" }}
       />
 
       <div className="relative mx-auto max-w-6xl px-5 py-16 md:py-20">
         <div className="grid gap-12 md:grid-cols-[minmax(0,1.3fr)_repeat(3,minmax(0,1fr))]">
           <div>
             <Link href={`/${locale}`} className="flex items-center gap-2 font-semibold tracking-tight">
-              <span className="flex size-8 items-center justify-center rounded-lg bg-linear-to-br from-[#7d6ff0] to-primary">
+              <span className="flex size-8 items-center justify-center rounded-lg bg-linear-to-br from-primary-bright to-primary">
                 <BoltIcon className="size-4 text-white" />
               </span>
               <span className="text-[17px]">Remakeit</span>
