@@ -20,7 +20,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="fr" className={golos.variable}>
-      <body>{children}</body>
+      {/* Les extensions de navigateur injectent des attributs sur <body> avant
+          l'hydratation de React, ce qui déclenche un faux avertissement de
+          mismatch. On le neutralise ici, uniquement sur <body>. */}
+      <body suppressHydrationWarning>{children}</body>
     </html>
   );
 }
