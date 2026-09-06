@@ -22,7 +22,7 @@ export async function generateMetadata({
     openGraph: {
       title: dict.meta.title,
       description: dict.meta.description,
-      siteName: "Remakeit",
+      siteName: "VYRA",
       locale: locale === "fr" ? "fr_FR" : "en_US",
       type: "website",
     },

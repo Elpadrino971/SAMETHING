@@ -49,7 +49,7 @@ export function Navbar({ dict, locale }: { dict: Dictionary; locale: Locale }) {
           <span className="flex size-8 items-center justify-center rounded-lg bg-linear-to-br from-primary-bright to-primary shadow-[0_6px_20px_-6px_rgba(255,61,129,1)]">
             <BoltIcon className="size-4 text-white" />
           </span>
-          <span className="text-[17px]">Remakeit</span>
+          <span className="text-[17px]">VYRA</span>
         </Link>
 
         <ul className="ml-2 hidden items-center gap-1 lg:flex">

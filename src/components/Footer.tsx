@@ -21,7 +21,7 @@ export function Footer({ dict, locale }: { dict: Dictionary; locale: Locale }) {
               <span className="flex size-8 items-center justify-center rounded-lg bg-linear-to-br from-primary-bright to-primary">
                 <BoltIcon className="size-4 text-white" />
               </span>
-              <span className="text-[17px]">Remakeit</span>
+              <span className="text-[17px]">VYRA</span>
             </Link>
             <p className="mt-5 max-w-xs text-[13px] leading-relaxed text-white/45">{footer.blurb}</p>
             <div className="mt-6 flex gap-2">
@@ -63,7 +63,7 @@ export function Footer({ dict, locale }: { dict: Dictionary; locale: Locale }) {
 
         <div className="mt-14 flex flex-col items-center gap-4 border-t border-white/8 pt-8 sm:flex-row sm:justify-between">
           <span className="text-[13px] text-white/35">{footer.copyright}</span>
-          <span className="text-[13px] text-white/25">Remakeit</span>
+          <span className="text-[13px] text-white/25">VYRA</span>
         </div>
       </div>
     </footer>

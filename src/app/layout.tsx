@@ -10,10 +10,10 @@ const golos = Golos_Text({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://example.com"),
-  title: "Remakeit — Créez des vidéos virales qui rapportent, automatiquement.",
+  title: "VYRA — Créez des vidéos virales qui rapportent, automatiquement.",
   description:
-    "Collez une URL YouTube ou écrivez un prompt. Remakeit génère une vidéo virale prête à être postée.",
-  applicationName: "Remakeit",
+    "Collez une URL YouTube ou écrivez un prompt. VYRA génère une vidéo virale prête à être postée.",
+  applicationName: "VYRA",
   robots: { index: true, follow: true },
 };
 

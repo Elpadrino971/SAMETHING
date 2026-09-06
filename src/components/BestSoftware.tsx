@@ -33,7 +33,7 @@ export function BestSoftware({ dict }: { dict: Dictionary }) {
               <span className="size-2.5 rounded-full bg-[#febc2e]" />
               <span className="size-2.5 rounded-full bg-[#28c840]" />
               <span className="mx-auto rounded-md bg-white/6 px-3 py-1 text-[11px] text-white/40">
-                app.remakeit.io/dashboard
+                app.vyra.io/dashboard
               </span>
             </div>
 

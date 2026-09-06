@@ -1,6 +1,9 @@
-# Remakeit — clone de la landing page
+# VYRA — landing page
 
-Recréation de la landing page et de la page tarifs de `remakeit.io/fr`, en Next.js.
+Landing page et page tarifs de VYRA, en Next.js.
+
+La mise en page a été recréée d'après `remakeit.io/fr` puis re-brandée : nom,
+palette et visuels sont ceux de VYRA.
 
 ## Stack
 
@@ -63,10 +66,12 @@ composants, donc ajouter une locale revient à créer un fichier typé
 Les visuels (maquettes de téléphone, tableau de bord, cartes, dégradés, grille
 de fond, icônes) sont **reconstruits en CSS et en SVG inline** plutôt que repris
 du site d'origine : aucun fichier image propriétaire n'est copié dans ce dépôt,
-et il n'y a aucune requête vers un CDN externe. Les textes marketing et le nom
-« Remakeit » sont repris du site source à des fins de reproduction fidèle —
-à remplacer par votre propre marque et vos propres contenus avant toute mise
-en ligne.
+et il n'y a aucune requête vers un CDN externe. Les textes marketing sont en revanche encore ceux du site
+source, simplement passés au nom VYRA : chiffres (1M+ créateurs, 25B+ vues),
+témoignages et questions de FAQ sont des placeholders **à réécrire avec vos
+propres données avant toute mise en ligne** — les publier tels quels
+reviendrait à afficher des chiffres et des avis clients qui ne sont pas les
+vôtres.
 
 ## Design
 

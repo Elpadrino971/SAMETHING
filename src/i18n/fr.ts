@@ -3,10 +3,10 @@ export type TableRow = { label: string; values: Cell[] };
 
 export const fr = {
   meta: {
-    title: "Remakeit — Créez des vidéos virales qui rapportent, automatiquement.",
+    title: "VYRA — Créez des vidéos virales qui rapportent, automatiquement.",
     description:
-      "Collez une URL YouTube ou écrivez un prompt. Remakeit génère une vidéo virale prête à être postée.",
-    pricingTitle: "Tarifs — Remakeit",
+      "Collez une URL YouTube ou écrivez un prompt. VYRA génère une vidéo virale prête à être postée.",
+    pricingTitle: "Tarifs — VYRA",
   },
   nav: {
     howItWorks: "Comment ça marche ?",
@@ -24,15 +24,15 @@ export const fr = {
     titleHighlight: "vidéos virales",
     titleLine2: "qui rapportent, automatiquement.",
     subtitle:
-      "Collez une URL YouTube ou écrivez un prompt. Remakeit génère une vidéo virale prête à être postée.",
+      "Collez une URL YouTube ou écrivez un prompt. VYRA génère une vidéo virale prête à être postée.",
     cta: "Essayer",
     pills: ["100 % automatique", "Optimisé TikTok", "Prêt à poster"],
   },
   socialProof: {
     highlight: "1M+ créateurs",
-    title: "génèrent des milliards de vues avec Remakeit",
+    title: "génèrent des milliards de vues avec VYRA",
     subtitle:
-      "Chaque jour des milliers de créateurs utilisent Remakeit pour générer des shorts viraux. Rejoignez-les.",
+      "Chaque jour des milliers de créateurs utilisent VYRA pour générer des shorts viraux. Rejoignez-les.",
     cards: [
       {
         title: "Vues = Argents",
@@ -106,26 +106,26 @@ export const fr = {
     badge: "Fonctionnalités",
     title: "Tout ce dont vous avez besoin",
     subtitle:
-      "Recyclez vos vidéos Youtube, créez du contenu viral de zéro, et publiez partout automatiquement. Sans jamais quitter Remakeit",
+      "Recyclez vos vidéos Youtube, créez du contenu viral de zéro, et publiez partout automatiquement. Sans jamais quitter VYRA",
     cta: "Essayer",
     tabs: [
       {
         label: "Clipping",
         titleLine1: "Recyclez vos vidéos",
         titleHighlight: "Youtube en shorts viraux",
-        text: "Collez une URL Youtube. Remakeit découpe les meilleurs moments, ajoute les sous-titres, optimise pour TikTok/Reels/Shorts. En 30 secondes",
+        text: "Collez une URL Youtube. VYRA découpe les meilleurs moments, ajoute les sous-titres, optimise pour TikTok/Reels/Shorts. En 30 secondes",
       },
       {
         label: "Génération IA",
         titleLine1: "Créez des vidéos",
         titleHighlight: "entièrement générées par IA",
-        text: "Un simple prompt suffit. Remakeit s'appuie sur les meilleurs modèles du marché pour produire des vidéos en 16:9 ou 9:16, prêtes à poster.",
+        text: "Un simple prompt suffit. VYRA s'appuie sur les meilleurs modèles du marché pour produire des vidéos en 16:9 ou 9:16, prêtes à poster.",
       },
       {
         label: "Auto-publish",
         titleLine1: "Programmez et publiez",
         titleHighlight: "sur tous vos réseaux",
-        text: "Connectez vos comptes TikTok, Instagram et YouTube. Remakeit publie au meilleur moment avec hashtags et description optimisés.",
+        text: "Connectez vos comptes TikTok, Instagram et YouTube. VYRA publie au meilleur moment avec hashtags et description optimisés.",
       },
       {
         label: "Outils",
@@ -136,7 +136,7 @@ export const fr = {
     ],
   },
   comparison: {
-    us: "Remakeit",
+    us: "VYRA",
     them: "Avec les autres outils",
     rows: [
       { us: "L'IA crée votre vidéo", them: "Découpage manuel" },
@@ -146,7 +146,7 @@ export const fr = {
     ],
   },
   why: {
-    titleLine1: "Pourquoi Remakeit est le",
+    titleLine1: "Pourquoi VYRA est le",
     titleHighlight: "meilleur outil",
     titleLine2: "pour créer des shorts viraux",
     subtitle: "Une dernière question avant de commencer ? Trouvez votre réponse ici.",
@@ -165,7 +165,7 @@ export const fr = {
       "Des créateurs comme vous ont transformé leur présence sur les réseaux sociaux. À votre tour !",
     items: [
       {
-        text: "Magnifique site, ça marche très bien, j'ai réussi à générer beaucoup de vues et de revenus grâce à Remakeit",
+        text: "Magnifique site, ça marche très bien, j'ai réussi à générer beaucoup de vues et de revenus grâce à VYRA",
         name: "Lucas M.",
         date: "12/01/2026",
       },
@@ -214,20 +214,20 @@ export const fr = {
     contact: "Nous contacter",
     items: [
       {
-        q: "Qu'est-ce que Remakeit ?",
-        a: "Remakeit est une intelligence artificielle qui permet de transformer rapidement des vidéos YouTube en contenus TikTok viraux et monétisables, sans nécessiter de compétences en montage.",
+        q: "Qu'est-ce que VYRA ?",
+        a: "VYRA est une intelligence artificielle qui permet de transformer rapidement des vidéos YouTube en contenus TikTok viraux et monétisables, sans nécessiter de compétences en montage.",
       },
       {
         q: "Ai-je besoin de compétences en montage vidéo ?",
-        a: "Non, aucune compétence en montage n'est requise. Remakeit simplifie le processus en automatisant la conversion des vidéos YouTube en formats adaptés à TikTok, ainsi que d'autres fonctionnalités prêtes à l'emploi.",
+        a: "Non, aucune compétence en montage n'est requise. VYRA simplifie le processus en automatisant la conversion des vidéos YouTube en formats adaptés à TikTok, ainsi que d'autres fonctionnalités prêtes à l'emploi.",
       },
       {
-        q: "Quels sont les avantages de Remakeit ?",
-        a: "Remakeit offre une conversion instantanée des vidéos YouTube vers TikTok, favorise une meilleure monétisation grâce à une visibilité accrue et ne nécessite aucune compétence en montage, rendant le processus accessible à tous.",
+        q: "Quels sont les avantages de VYRA ?",
+        a: "VYRA offre une conversion instantanée des vidéos YouTube vers TikTok, favorise une meilleure monétisation grâce à une visibilité accrue et ne nécessite aucune compétence en montage, rendant le processus accessible à tous.",
       },
       {
         q: "Puis-je monétiser mes vidéos ?",
-        a: "Oui, les vidéos générées avec Remakeit sont conçues pour augmenter votre visibilité et vos opportunités de monétisation sur TikTok et d'autres plateformes de contenus courts.",
+        a: "Oui, les vidéos générées avec VYRA sont conçues pour augmenter votre visibilité et vos opportunités de monétisation sur TikTok et d'autres plateformes de contenus courts.",
       },
       {
         q: "Puis-je personnaliser mes vidéos après conversion ?",
@@ -254,7 +254,7 @@ export const fr = {
         tagline: "Idéale pour commencer rapidement !",
         price: 22,
         features: [
-          "300 crédits Pour Remakeit Shorts*",
+          "300 crédits Pour VYRA Shorts*",
           "60 Synthèse vocale",
           "+3 musiques de fond",
           "Prompt vers vidéo virale",
@@ -267,7 +267,7 @@ export const fr = {
         tagline: "Découvrez plus fonctionnalités, et optimisez vos process.",
         price: 39,
         features: [
-          "600 crédits Pour Remakeit Shorts*",
+          "600 crédits Pour VYRA Shorts*",
           "120 Synthèse vocale",
           "Toutes les musiques de fond",
           "Prompt vers vidéo virale",
@@ -280,7 +280,7 @@ export const fr = {
         tagline: "Pour les professionnels avec plusieurs comptes TikTok",
         price: 89,
         features: [
-          "Crédits Remakeit Shorts illimités",
+          "Crédits VYRA Shorts illimités",
           "Synthèse vocale illimitée",
           "Toutes les musiques de fond",
           "Prompt vers vidéo virale",
@@ -291,21 +291,21 @@ export const fr = {
     ],
     tables: [
       {
-        title: "Technologie Remakeit",
+        title: "Technologie VYRA",
         header: "Fonctionnalités",
         rows: ([
           { label: "Crédits", values: ["300", "600", "Crédits illimités"] },
           { label: "Analyses vidéos Youtube", values: [true, true, true] },
           { label: "Création de shorts monétisables", values: [true, true, true] },
           { label: "Prompt to Vidéo", values: [true, true, true] },
-          { label: "Remakeit x Veo3", values: [false, true, true] },
+          { label: "VYRA x Veo3", values: [false, true, true] },
           { label: "Publication automatique (TikTok-Youtube-Instagram) ⚡", values: [true, true, true] },
           { label: "Hashtag et description optimisés automatiquement ⚡", values: [false, true, true] },
           { label: "Dashboard Analytics Performances ⚡️", values: [false, false, true] },
         ] as TableRow[]),
       },
       {
-        title: "Outils Remakeit",
+        title: "Outils VYRA",
         header: "Fonctionnalités",
         rows: ([
           { label: "Recherche intelligente YouTube", values: [true, true, true] },
@@ -321,7 +321,7 @@ export const fr = {
   },
   footer: {
     blurb:
-      "Voici les réponses aux questions les plus fréquemment posées à propos de Remakeit. Si vous en avez d'autres, notre équipe est disponible pour vous aider.",
+      "Voici les réponses aux questions les plus fréquemment posées à propos de VYRA. Si vous en avez d'autres, notre équipe est disponible pour vous aider.",
     columns: [
       {
         title: "Aide",
@@ -351,7 +351,7 @@ export const fr = {
         ],
       },
     ],
-    copyright: "©2026 Remakeit",
+    copyright: "©2026 VYRA",
   },
 };
 
