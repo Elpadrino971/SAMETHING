@@ -1,0 +1,29 @@
+# Déploiement Netlify — VYRA
+#
+# Le site est un app Next.js : le runtime Next de Netlify gère le rendu des
+# routes, les redirections et le cache. Il suffit de connecter ce repo dans
+# Netlify, tout le reste est ici.
+
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Les assets buildés portent un hash dans leur nom : immuables, cache long.
+[[headers]]
+  for = "/_next/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"

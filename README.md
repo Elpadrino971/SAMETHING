@@ -57,6 +57,44 @@ src/
     index.ts                # locales, defaultLocale, getDictionary
 ```
 
+## Déploiement (Netlify)
+
+`netlify.toml` est déjà configuré : commande de build, Node 22, runtime Next,
+cache long sur les assets hashés et en-têtes de sécurité de base.
+
+1. Netlify → **Add new site** → **Import an existing project** → ce repo
+2. Branche : `claude/remakeit-clone-nhutjs`
+3. Ne touche à rien dans le formulaire — les réglages viennent de `netlify.toml`
+4. **Deploy**
+
+En CLI :
+
+```bash
+npx netlify-cli login
+npx netlify-cli init     # relie le dossier à un site Netlify
+npx netlify-cli deploy --build --prod
+```
+
+### Si le build Netlify échoue sur la version de Next
+
+Le runtime Next de Netlify peut avoir un train de retard sur les toutes
+dernières majeures. Deux issues, dans cet ordre :
+
+- **Rétrograder Next** : `npm install next@15` puis redéployer.
+- **Passer en export statique** — le site n'a aucun rendu serveur, donc c'est
+  viable et même plus rapide : ajouter `output: "export"` dans
+  `next.config.ts`, supprimer `src/app/page.tsx` (le `redirect()` n'existe pas
+  en export), et déclarer la redirection racine dans `netlify.toml` :
+
+  ```toml
+  [[redirects]]
+    from = "/"
+    to = "/fr"
+    status = 302
+  ```
+
+  Puis `publish = "out"` au lieu de `.next`, et retirer le bloc `[[plugins]]`.
+
 ## Contenu et assets
 
 Tout le texte vit dans `src/i18n/`. Aucune chaîne n'est codée en dur dans les
